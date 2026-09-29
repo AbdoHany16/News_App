@@ -20,7 +20,7 @@ class NewsApp extends StatelessWidget {
       initialRoute: AppRouts.details,
       routes: {
         AppRouts.home: (context) => HomeScreen(),
-        AppRouts.details: (context) => DetailsScreen(),
+        AppRouts.details: (context) => HomeScreen(),
       },
     );
   }
